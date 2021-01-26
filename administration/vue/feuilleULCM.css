@@ -1,0 +1,60 @@
+html, body {
+margin:0;
+}
+
+#Corps
+{
+	height: 200%;
+	width:100%;
+	font-family: Arial, "Arial Black";
+    font-size: 20;
+	background-color:grey;
+	position :relative;
+	float:bottom;
+	float:left;
+
+}
+
+#espace
+{
+	height: 10px;
+	width:100%;
+	font-family: Arial, "Arial Black";
+    font-size: 22;
+	background-color:blue;
+	position :relative;
+	float:bottom;
+	float:left;
+}
+
+#Lien
+{
+	padding-top:15px;
+	height: 35px;
+	width:100%;
+	font-family: Arial, "Arial Black";
+    font-size: 18;
+	background-color:silver;
+	position :relative;
+	float:bottom;
+	float:left;
+}
+
+#deconnexion
+{
+	padding-top:20px;
+    font-size: 15;
+	float:right;
+}
+
+#Haut
+{	
+	height: 60px;
+	margin:auto;	
+	text-align:center;
+	font-family: Arial, "Arial Black";
+	color:white;
+	background-color:black;
+	position :relative;
+}
+

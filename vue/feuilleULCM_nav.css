@@ -1,0 +1,129 @@
+#player1 {
+	width:480;
+	height: 360;
+}
+
+
+
+
+
+
+.nav {
+	list-style: none none;
+	margin: 0;
+	padding: 0;
+	line-height: 0;
+}
+
+.nav a {
+	display: block;
+	padding:1.0em;
+	margin: 3px;
+	color: blue;
+	border-radius: 5px;
+	background: white;
+	text-decoration: none;
+}
+.nav a:focus,
+.nav a:hover {
+	color: black;
+	background: #ffc;
+	text-decoration: underline;
+}
+.nav-item {
+	float: left;
+	position: relative;
+}
+.sub-nav {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 2em;
+	white-space: nowrap;
+	background: white;
+	margin-top: -2px;
+}
+.sub-nav-item{
+	position: absolute;
+	left: -10000px;
+	top: auto;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	float: left;
+}
+
+
+.sub-nav-item a:focus,
+.nav-item a:focus +.sub-nav a,
+.nav-item:hover .sub-nav-item  a{
+	position : static;
+	left: auto;
+	width: auto;
+	height: auto;
+	overflow: visible;
+}
+
+
+@media screen and (max-width: 680px) {
+	.nav a {
+	display: block;
+	padding:.5em;
+	color: black;
+	background: white;
+	text-decoration: none;
+	}
+	.sub-nav {
+		position:static;
+		white-space: normal;
+	}
+	.sub-nav-item a{
+		display: block;
+		width: : auto;
+		height: auto;
+		position: static;
+		padding-left: 1em;
+		overflow: visible;
+		float: none;
+	}
+	#player1 {
+	width:380;
+	height: 200;
+	}
+
+@media screen and (max-width: 480px) {
+	#Haut: {
+		height: 280px;
+	}
+	.nav-item {
+		float: none;
+	}
+	.sub-nav {
+		position:static;
+		white-space: normal;
+	}
+	.sub-nav-item a{
+		display: block;
+		width: : auto;
+		height: auto;
+		position: static;
+		padding-left: 1em;
+		overflow: visible;
+		float: none;
+	}
+	#player1 {
+	width:280;
+	height: 140;
+	}
+	.nav a {
+	display: block;
+	border-radius: 5px;
+	padding:.8em;
+	color: blue;
+	background: white;
+	text-decoration: none;
+	z-index:9999;
+	l}
+
+
+}

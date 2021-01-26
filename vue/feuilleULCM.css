@@ -1,0 +1,41 @@
+html, body {
+margin:0;
+}
+
+#Corps
+{
+	/*margin-top:200px;*/
+	/*margin-left : 150px;*/
+	height: 200%;
+	width:85%;
+	font-family: Arial, "Arial Black";
+    font-size: 22;
+	background-color:grey;
+	position :relative;
+	float:bottom;
+	float:left;
+
+}
+
+#Haut
+{	height: 200px;
+	margin:auto;	
+	text-align:center;
+	font-family: Arial, "Arial Black";
+    /*font-size: 22;*/
+	background-color:silver;
+	position :relative;
+}
+
+#MenuGauche
+{
+	/*margin-top:200px;*/
+	height: 200%;
+	width : 15%;
+	font-family: Arial, "Arial Black";
+    font-size: 22;
+	background-color:gold;
+	position :relative;
+	float:bottom;
+	float:left;
+}
